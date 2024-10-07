@@ -377,6 +377,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background: #eef2f6;
     border-radius: 50%;
 }
+.single-image {
+    display: inline-block;
+    color: #50616c;
+    width: 280px;
+    height: 242px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
 .single-how-works h2 a {
     font-size:  18px;
     margin: 35px 0 20px;
