@@ -200,34 +200,22 @@
 			<div class="container">
 				<div class="section-header">
 					<h2>user needfinding</h2>
-					<p>Lorem ipsum dolor sit amet</p>
+					<p>Where you can "hear" from others</p>
 				</div><!--/.section-header-->
 				<div class="needs-content">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
 							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
-									<i class="flaticon-lightbulb-idea"></i>
-								</div>
-								<h2><a href="#">Slide</a></h2>
-								<p>
-									PowerPoint slide. 
-								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<h2><a href="#">Slides in .pptx format</a></h2>
+								<button class="welcome-hero-btn how-needs-btn" onclick="downloadFile('assets/files/Slide HMI - Group 3.pptx')">
 									download
 								</button>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
 							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
-									<i class="flaticon-networking"></i>
-								</div>
-								<h2><a href="#">Documents</a></h2>
-								<p>
-									Word documents. 
-								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<h2><a href="#">Slides in .pdf format</a></h2>
+								<button class="welcome-hero-btn how-needs-btn" onclick="downloadFile('assets/files/Slide HMI - Group 3.pdf')">
 									download
 								</button>
 							</div>
@@ -235,12 +223,23 @@
 					</div>
 				</div>
 			</div><!--/.container-->
-
 		</section><!--/.needs-->
+		
+		<script>
+		function downloadFile(filePath) {
+			const a = document.createElement('a'); // Create an anchor element
+			a.href = filePath; // Set the href to the file path
+			a.download = ''; // Specify that it should be downloaded
+			document.body.appendChild(a); // Append it to the body
+			a.click(); // Programmatically click the anchor to trigger the download
+			document.body.removeChild(a); // Remove the anchor from the document
+		}
+		</script>
+		
 		<!--need end -->
 
 		<!--concept start -->
-		<section id="concept" class="needs">
+		<section id="concept" class="hifi">
 			<div class="container">
 				<div class="section-header">
 					<h2>concept video</h2>
@@ -249,29 +248,29 @@
 				<div class="needs-content">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
+							<div class="single-how-hifi">
+								<div class="single-how-hifi-icon">
 									<i class="flaticon-lightbulb-idea"></i>
 								</div>
 								<h2><a href="#">Lorem ipsum</a></h2>
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
+							<div class="single-how-hifi">
+								<div class="single-how-hifi-icon">
 									<i class="flaticon-networking"></i>
 								</div>
 								<h2><a href="#">Lorem ipsum</a></h2>
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -284,7 +283,7 @@
 		<!--concept end -->
 
 		<!--lofi start -->
-		<section id="lofi" class="needs">
+		<section id="lofi" class="hifi">
 			<div class="container">
 				<div class="section-header">
 					<h2>lo-fi prototype</h2>
@@ -293,7 +292,7 @@
 				<div class="needs-content">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
+							<div class="single-how-hifi">
 								<div class="single-how-needs-icon">
 									<i class="flaticon-lightbulb-idea"></i>
 								</div>
@@ -301,21 +300,21 @@
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
+							<div class="single-how-hifi">
+								<div class="single-how-hifi-icon">
 									<i class="flaticon-networking"></i>
 								</div>
 								<h2><a href="#">Lorem ipsum</a></h2>
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -328,7 +327,7 @@
 		<!--lofi end -->
 
 		<!--hifi start -->
-		<section id="hifi" class="needs">
+		<section id="hifi" class="hifi">
 			<div class="container">
 				<div class="section-header">
 					<h2>hi-fi prototype</h2>
@@ -337,29 +336,29 @@
 				<div class="needs-content">
 					<div class="row">
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
+							<div class="single-how-hifi">
+								<div class="single-how-hifi-icon">
 									<i class="flaticon-lightbulb-idea"></i>
 								</div>
 								<h2><a href="#">Lorem ipsum</a></h2>
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
 						</div>
 						<div class="col-md-6 col-sm-6">
-							<div class="single-how-needs">
-								<div class="single-how-needs-icon">
+							<div class="single-how-hifi">
+								<div class="single-how-hifi-icon">
 									<i class="flaticon-networking"></i>
 								</div>
 								<h2><a href="#">Lorem ipsum</a></h2>
 								<p>
 									Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua. 
 								</p>
-								<button class="welcome-hero-btn how-needs-btn" onclick="window.location.href='#'">
+								<button class="welcome-hero-btn how-hifi-btn" onclick="window.location.href='#'">
 									read more
 								</button>
 							</div>
@@ -368,7 +367,7 @@
 				</div>
 			</div><!--/.container-->
 
-		</section><!--/.works-->
+		</section><!--/.hifi-->
 		<!--hifi end -->
 
 		<!--footer start-->
