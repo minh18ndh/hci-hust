@@ -135,7 +135,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #1b1e20;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     padding: 34px 0px;
     text-transform:capitalize;
@@ -148,7 +148,7 @@ nav.navbar.bootsnav {
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
     color: #859098;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 500;
     text-transform:uppercase;
     -webkit-transition: 0.3s linear; 
@@ -518,15 +518,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #aa1d2b;}
 /*-------------------------------------
         9. Lo-fi prototype
 --------------------------------------*/
+.lofi{padding: 90px 0 90px;}
+.lofi-content {margin-top: 73px;}
 
-
-/*-------------------------------------
-        10. Hi-fi prototype
---------------------------------------*/
-.hifi{padding: 90px 0 90px;}
-.hifi-content {margin-top: 73px;}
-
-.single-how-hifi {
+.single-how-lofi {
     text-align: center;
     padding: 50px 42px;
     border-radius: 3px;
@@ -538,7 +533,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #aa1d2b;}
     transition: .3s linear;
 }
 
-.single-how-hifi-icon {
+.single-how-lofi-icon {
     display: inline-block;
     color: #50616c;
     width: 80px;
@@ -556,19 +551,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #aa1d2b;}
     background: #eef2f6;
     border-radius: 50%;
 }
-.single-how-hifi h2 a {
+.single-how-lofi h2 a {
     font-size:  18px;
     margin: 35px 0 20px;
     text-transform: none;
 }
 
-.single-how-hifi h2 a span {text-transform: lowercase;}
-.single-how-hifi p {margin-bottom: 25px; text-transform: initial;}
+.single-how-lofi h2 a span {text-transform: lowercase;}
+.single-how-lofi p {margin-bottom: 25px; text-transform: initial;}
 
-.single-how-hifi-icon [class^="flaticon-"]:before,.single-how-hifi-icon [class*=" flaticon-"]:before,.single-how-hifi-icon [class^="flaticon-"]:after,.single-how-hifi-icon [class*=" flaticon-"]:after {font-size: 35px;}
-.single-how-hifi:hover .single-how-hifi-icon [class^="flaticon-"]:before,.single-how-hifi:hover .single-how-hifi-icon [class*=" flaticon-"]:before,.single-how-hifi:hover .single-how-hifi-icon [class^="flaticon-"]:after,.single-how-hifi:hover .single-how-hifi-icon [class*=" flaticon-"]:after {color:#aa1d2b;}
+.single-how-lofi-icon [class^="flaticon-"]:before,.single-how-lofi-icon [class*=" flaticon-"]:before,.single-how-lofi-icon [class^="flaticon-"]:after,.single-how-lofi-icon [class*=" flaticon-"]:after {font-size: 35px;}
+.single-how-lofi:hover .single-how-lofi-icon [class^="flaticon-"]:before,.single-how-lofi:hover .single-how-lofi-icon [class*=" flaticon-"]:before,.single-how-lofi:hover .single-how-lofi-icon [class^="flaticon-"]:after,.single-how-lofi:hover .single-how-lofi-icon [class*=" flaticon-"]:after {color:#aa1d2b;}
 
-.welcome-hero-btn.how-hifi-btn {
+.welcome-hero-btn.how-lofi-btn {
     display: inline-block;
     margin: 0;
     width: 100px;
@@ -580,10 +575,205 @@ nav.navbar.bootsnav .navbar-toggle i{color: #aa1d2b;}
     border-radius: 3px;
 }
 
-.single-how-hifi:hover h2 a,.single-how-hifi:hover p{color: #fff;}
-.single-how-hifi:hover .single-how-hifi-icon{background: #fff;}
-.single-how-hifi:hover .welcome-hero-btn.how-hifi-btn{background: #fff;color: #aa1d2b;}
-.single-how-hifi:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #aa1d2b;}
+.single-how-lofi:hover h2 a,.single-how-lofi:hover p{color: #fff;}
+.single-how-lofi:hover .single-how-lofi-icon{background: #fff;}
+.single-how-lofi:hover .welcome-hero-btn.how-lofi-btn{background: #fff;color: #aa1d2b;}
+.single-how-lofi:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #aa1d2b;}
+
+/*-------------------------------------
+        10. Med-fi prototype
+--------------------------------------*/
+.medfi{padding: 90px 0 90px;}
+.medfi-content {margin-top: 73px;}
+
+.single-how-medfi {
+    text-align: center;
+    padding: 50px 42px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px rgba(71,71,71,.2);
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+.single-how-medfi-icon {
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-image {
+    display: inline-block;
+    color: #50616c;
+    width: 280px;
+    height: 247px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-how-medfi h2 a {
+    font-size:  18px;
+    margin: 35px 0 20px;
+    text-transform: none;
+}
+
+.single-how-medfi h2 a span {text-transform: lowercase;}
+.single-how-medfi p {margin-bottom: 25px; text-transform: initial;}
+
+.single-how-medfi-icon [class^="flaticon-"]:before,.single-how-medfi-icon [class*=" flaticon-"]:before,.single-how-medfi-icon [class^="flaticon-"]:after,.single-how-medfi-icon [class*=" flaticon-"]:after {font-size: 35px;}
+.single-how-medfi:hover .single-how-medfi-icon [class^="flaticon-"]:before,.single-how-medfi:hover .single-how-medfi-icon [class*=" flaticon-"]:before,.single-how-medfi:hover .single-how-medfi-icon [class^="flaticon-"]:after,.single-how-medfi:hover .single-how-medfi-icon [class*=" flaticon-"]:after {color:#aa1d2b;}
+
+.welcome-hero-btn.how-medfi-btn {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    color: #767f86;
+    border: 1px solid #d3d6d9;
+    border-radius: 3px;
+}
+
+.single-how-medfi:hover h2 a,.single-how-medfi:hover p{color: #fff;}
+.single-how-medfi:hover .single-how-medfi-icon{background: #fff;}
+.single-how-medfi:hover .welcome-hero-btn.how-medfi-btn{background: #fff;color: #aa1d2b;}
+.single-how-medfi:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #aa1d2b;}
+
+/*-------------------------------------
+        10. Heuristic Evaluation
+--------------------------------------*/
+.heueval{padding: 90px 0 90px;}
+.heueval-content {margin-top: 73px;}
+
+.single-how-heueval {
+    text-align: center;
+    padding: 50px 42px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px rgba(71,71,71,.2);
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+.single-how-heueval-icon {
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-image {
+    display: inline-block;
+    color: #50616c;
+    width: 280px;
+    height: 247px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-how-heueval h2 a {
+    font-size:  18px;
+    margin: 35px 0 20px;
+    text-transform: none;
+}
+
+.single-how-heueval h2 a span {text-transform: lowercase;}
+.single-how-heueval p {margin-bottom: 25px; text-transform: initial;}
+
+.single-how-heueval-icon [class^="flaticon-"]:before,.single-how-heueval-icon [class*=" flaticon-"]:before,.single-how-heueval-icon [class^="flaticon-"]:after,.single-how-heueval-icon [class*=" flaticon-"]:after {font-size: 35px;}
+.single-how-heueval:hover .single-how-heueval-icon [class^="flaticon-"]:before,.single-how-heueval:hover .single-how-heueval-icon [class*=" flaticon-"]:before,.single-how-heueval:hover .single-how-heueval-icon [class^="flaticon-"]:after,.single-how-heueval:hover .single-how-heueval-icon [class*=" flaticon-"]:after {color:#aa1d2b;}
+
+.welcome-hero-btn.how-heueval-btn {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    color: #767f86;
+    border: 1px solid #d3d6d9;
+    border-radius: 3px;
+}
+
+.single-how-heueval:hover h2 a,.single-how-heueval:hover p{color: #fff;}
+.single-how-heueval:hover .single-how-heueval-icon{background: #fff;}
+.single-how-heueval:hover .welcome-hero-btn.how-heueval-btn{background: #fff;color: #aa1d2b;}
+.single-how-heueval:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #aa1d2b;}
+
+/*-------------------------------------
+        10. Final Report
+--------------------------------------*/
+.final{padding: 90px 0 90px;}
+.final-content {margin-top: 73px;}
+
+.single-how-final {
+    text-align: center;
+    padding: 50px 42px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px rgba(71,71,71,.2);
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+.single-how-final-icon {
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-image {
+    display: inline-block;
+    color: #50616c;
+    width: 280px;
+    height: 247px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.single-how-final h2 a {
+    font-size:  18px;
+    margin: 35px 0 20px;
+    text-transform: none;
+}
+
+.single-how-final h2 a span {text-transform: lowercase;}
+.single-how-final p {margin-bottom: 25px; text-transform: initial;}
+
+.single-how-final-icon [class^="flaticon-"]:before,.single-how-final-icon [class*=" flaticon-"]:before,.single-how-final-icon [class^="flaticon-"]:after,.single-how-final-icon [class*=" flaticon-"]:after {font-size: 35px;}
+.single-how-final:hover .single-how-final-icon [class^="flaticon-"]:before,.single-how-final:hover .single-how-final-icon [class*=" flaticon-"]:before,.single-how-final:hover .single-how-final-icon [class^="flaticon-"]:after,.single-how-final:hover .single-how-final-icon [class*=" flaticon-"]:after {color:#aa1d2b;}
+
+.welcome-hero-btn.how-final-btn {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    color: #767f86;
+    border: 1px solid #d3d6d9;
+    border-radius: 3px;
+}
+
+.single-how-final:hover h2 a,.single-how-final:hover p{color: #fff;}
+.single-how-final:hover .single-how-final-icon{background: #fff;}
+.single-how-final:hover .welcome-hero-btn.how-final-btn{background: #fff;color: #aa1d2b;}
+.single-how-final:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #aa1d2b;}
 
 /*-------------------------------------
         11. Footer
